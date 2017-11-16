@@ -1,6 +1,6 @@
 var name;
 console.log(process.env);
-if(process.env!="PRODUCTION"){
+if(process.env!="production"){
     name = require('./config').name;
     console.log(name);
 }else{
